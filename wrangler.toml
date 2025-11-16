@@ -1,5 +1,4 @@
-main = "workers-site/index.js"
-name = "your-worker-name"
+name = "PortfolioWebsite"
 compatibility_date = "2025-11-16"
 
 [site]
