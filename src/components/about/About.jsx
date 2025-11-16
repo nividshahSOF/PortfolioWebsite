@@ -16,7 +16,7 @@ const about = () => {
             <article className="about__card" style={{ background: "#fff", borderRadius: "1rem", padding: "1.5rem 2rem", boxShadow: "0 2px 8px rgba(94,96,206,0.08)", textAlign: "center", flex: 1 }}>
               <FaAward className="about__icon" style={{ color: "var(--color-primary)", fontSize: "1.8rem", marginBottom: "0.5rem" }} />
               <h5 style={{ fontSize: "1rem", marginBottom: "0.3rem" }}>Experience</h5>
-              <small style={{ color: "var(--color-light)" }}>2+ Years</small>
+              <small style={{ color: "var(--color-light)" }}>4+ Years</small>
             </article>
             <article className="about__card" style={{ background: "#fff", borderRadius: "1rem", padding: "1.5rem 2rem", boxShadow: "0 2px 8px rgba(94,96,206,0.08)", textAlign: "center", flex: 1 }}>
               <FiUsers className="about__icon" style={{ color: "var(--color-primary)", fontSize: "1.8rem", marginBottom: "0.5rem" }} />

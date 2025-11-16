@@ -15,7 +15,7 @@ const myData = [
   {
     key: 1,
     image: IMG1,
-    name: "Akshay Shakhia",
+    name: "Meet Jani",
     review:
       "His efficient way of working, finding a quick and robust solution to any problem, approaching a problem in a novelty way and blending different technologies for innovative and affordable ideas, leading and mentoring geographically spread and multicultural teams in a smooth way are few of the qualities that I have seen in him every day.",
   },
@@ -24,7 +24,7 @@ const myData = [
     image: IMG2,
     name: "Rupesh Jogani",
     review:
-      "You can rely on Nivid all the time to get things done. He always keeps the zeal to learn the unknowns and dig deeper into incidents. He is hard working, always gives feedback, great listener. One thing that amazes me every time about saumya is his level of patience, attitude and cool he keeps at times under extreme pressure.",
+      "You can rely on Nivid all the time to get things done. He always keeps the zeal to learn the unknowns and dig deeper into incidents. He is hard working, always gives feedback, great listener. One thing that amazes me every time about Nivid is his level of patience, attitude and cool he keeps at times under extreme pressure.",
   },
   {
     key: 3,
