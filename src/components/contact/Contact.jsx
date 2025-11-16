@@ -35,7 +35,7 @@ const Contact = () => {
             <MdOutlineMailOutline className='contact__option-icon' />
             <h4>Email</h4>
             <h5>nividshah@gmail.com</h5>
-            <a href='mailto:nividshah@gmail.com' target={'_blank'}>Send a Message</a>
+            <a href='mailto:nividshah@gmail.com' target={'_blank'} rel="noreferrer">Send a Message</a>
           </article>
 
           <article className='contact__option'>
@@ -49,7 +49,7 @@ const Contact = () => {
             <IoLogoLinkedin className='contact__option-icon' />
             <h4>LinkedIn</h4>
             <h5>Nivid Shah</h5>
-            <a href='https://www.linkedin.com/in/nividshah/' target={'_blank'}>Connect</a>
+            <a href='https://www.linkedin.com/in/nividshah/' target={'_blank'} rel="noreferrer">Connect</a>
           </article>
         </div>
         {/* second column */}
