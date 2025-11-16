@@ -33,19 +33,20 @@ footer a{
 }
 
 .footer__socials a{
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: linear-gradient(135deg, #5e60ce 60%, #48bfe3 100%);
+    color: #fff;
     padding: 0.8rem;
-    border-radius: 0.7rem;
+    border-radius: 50%;
     display: flex;
-    border: 1px solid transparent;
+    border: none;
+    box-shadow: 0 2px 8px rgba(94,96,206,0.12);
     transition: var(--transition);
 }
 
 .footer__socials a:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    background: #fff;
+    color: #5e60ce;
+    box-shadow: 0 4px 16px rgba(94,96,206,0.18);
 }
 
 .footer__copyright{

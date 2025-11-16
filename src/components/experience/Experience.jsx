@@ -5,31 +5,25 @@ import Article from "./Article";
 const experience = () => {
   return (
     <section id="experience">
-      <h5>Skills I have</h5>
-      <h2>My Skills</h2>
+      <h5>Skills</h5>
+      <h2>What I am good at :)</h2>
 
-      <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <Article name="HTML" level="Experienced" />
-            <Article name="CSS"  level="Experienced"/>
-            <Article name="JavaScript"  level="Experienced"/>
-            <Article name="React" level="Experienced" />
-            <Article name="jQuery" level="Experienced" />
-            <Article name="Thymeleaf"  level="Experienced"/>
-          </div>
-        </div>
-{/* backend stuff */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <Article name="Java" level="Experienced" />
-            <Article name="C#" level="Experienced" />
-            <Article name="Python"  level="Experienced"/>
-            <Article name="Node.js"  level="Experienced"/>
-            <Article name="Spring" level="Experienced" />
-            <Article name="SQL / NoSQL" level="Experienced" />       
+      <div className="container experience__container" style={{gridTemplateColumns: '1fr'}}>
+        {/* Skills Section */}
+        <div className="experience__skills" style={{background: 'var(--color-bg-variant)', color: '#222', borderRadius: '1.5rem', padding: '2rem'}}>
+          <h3 style={{color: '#4db5ff'}}>Skills & Tools</h3>
+          <div className="experience__content" style={{display: 'flex', flexWrap: 'wrap', gap: '1.5rem'}}>
+            <Article name="Java" level="Expert" />
+            <Article name="SQL/NoSQL" level="Expert" />
+            <Article name="Spring" level="Expert" />
+            <Article name="React" level="Expert" />
+            <Article name="JavaScript" level="Expert" />
+            <Article name="HTML/CSS" level="Expert" />
+            <Article name="Node.js" level="Expert" />
+            <Article name="Python" level="Proficient" />
+            <Article name="Azure" level="Proficient" />
+            <Article name="Docker" level="Proficient" />
+            <Article name="CI/CD" level="Proficient" />
           </div>
         </div>
       </div>
