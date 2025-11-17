@@ -7,7 +7,7 @@ import {MdWavingHand} from 'react-icons/md'
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className='container header__container'>
         <h4>Hello <span><MdWavingHand /></span> I'm</h4>
         <h1>Nivid Shah</h1>
