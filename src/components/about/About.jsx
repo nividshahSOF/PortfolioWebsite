@@ -29,13 +29,13 @@ const about = () => {
               <small style={{ color: "var(--color-light)" }}>20+ Completed</small>
             </article>
           </div>
-          <p style={{ fontSize: "1.1rem", color: "var(--color-light)", marginBottom: "2rem", textAlign: "center", lineHeight: "1.7" }}>
-            Senior Software Developer with expertise in Java, Spring Boot, PL/SQL, and modern web technologies including React, Next.js, and JavaScript.<br />
-            Experienced in building scalable micro-services, web applications and leading technical projects.<br />
-            Proficient in Java, JavaScript, React, Node.js, SQL, and cloud technologies.<br />
-            Passionate about solving complex problems, mentoring others, and staying up-to-date with the latest tech trends.<br />
-            Open to new opportunities and collaborations.
-          </p>
+          <ul style={{ fontSize: "1.15rem", color: "var(--color-light)", marginBottom: "2rem", textAlign: "left", lineHeight: "1.8", background: "rgba(255,255,255,0.07)", borderRadius: "1rem", padding: "1.5rem 1rem", boxShadow: "0 2px 8px rgba(94,96,206,0.08)", listStyle: "disc inside" }}>
+            <li><span style={{ color: "var(--color-primary)", fontWeight: 600 }}>Senior Software Developer</span> skilled in <span style={{ color: "#6C63FF", fontWeight: 500 }}>Java</span>, <span style={{ color: "#6C63FF", fontWeight: 500 }}>Spring Boot</span>, <span style={{ color: "#6C63FF", fontWeight: 500 }}>PL/SQL</span>, and modern web technologies like <span style={{ color: "#6C63FF", fontWeight: 500 }}>React</span>, <span style={{ color: "#6C63FF", fontWeight: 500 }}>Next.js</span>, and <span style={{ color: "#6C63FF", fontWeight: 500 }}>JavaScript</span>.</li>
+            <br />
+            <li><span style={{ color: "var(--color-primary)", fontWeight: 500 }}>Mentoring</span>, <span style={{ color: "var(--color-primary)", fontWeight: 500 }}>problem solving</span>, and <span style={{ color: "var(--color-primary)", fontWeight: 500 }}>continuous learning</span> keep me inspired.</li>
+            <br />
+            <li><span style={{ color: "#6C63FF", fontWeight: 500 }}>Open to new opportunities & collaborations.</span></li>
+          </ul>
           <a href="#contact" className="btn btn-primary" style={{ fontWeight: 500, fontSize: "1rem", padding: "0.8rem 2rem" }}>Contact Me</a>
         </div>
       </div>
